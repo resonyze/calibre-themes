@@ -53,11 +53,18 @@ body {
   padding: 1em;
 }
 code {
-  color: var(--base0c);
-  background-color: var(--base01);
-  border: 1px solid var(--base02);
-  border-radius: 4px;
-  padding: 2px;
+    color: var(--base0c);
+    overflow-x: auto;
+    white-space: pre;
+    background-color: var(--base01);
+    border: 1px solid var(--base02); 
+    border-radius: 4px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    word-break: normal;
+    word-wrap: normal;
 }
 a {
   color: var(--base0d);
