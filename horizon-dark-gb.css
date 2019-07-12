@@ -17,6 +17,15 @@
 	--base0f: #E4A382;
 }
 
+::selection {
+background-color: var(--base04);
+color: var(--base06);
+}
+
+nav {
+ background-color: var(--base00);
+}
+
 b,
 strong {
   font-weight: bold;
@@ -80,11 +89,17 @@ h6 {
   color: var(--base0a);
 }
 
+span {
+ color: var(--base07);
+}
+
 .programlisting {
   background-color: var(--base02);
   border: 1px solid var(--base03); 
   border-radius: 4px;
   padding: 1em;
+  overflow-x: auto;
+  white-space: pre;
 }
 
 h1 {
